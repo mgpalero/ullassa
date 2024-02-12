@@ -1,0 +1,118 @@
+/*{}#*/
+/*tipografia local*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family:'abril-titulos';
+    src: url("../tipografias/Abril/Abril_Text_SemiBold.otf");
+}
+/*Menú*/
+/*tipografia google*/
+
+.grid-container{
+    display: grid;
+    grid-template-rows: 30px 60px 30px 60px 30px 60px 3px 20px 10px;
+    grid-template-columns: 6fr 3fr 5fr 5fr 2fr 3fr 2fr 3fr 2fr;
+
+}
+
+/*section{ 
+    background-color: lightcoral; 
+    display:grid;
+    grid-template-columns: 3fr;
+    grid-template-rows: 3fr;
+    /*flex-direction: row;*/
+    /*align-items: center;*/
+    /*FLEX wrap: automatiza que no desborde el body, hace que no se genere el scroll horizontal, y acaomoda los elementos para que se adapten a la pantalla*/
+    /*flex-wrap:wrap;*/
+    
+/*.grilla{
+    background-color: lightcoral; 
+    display: grid;
+}
+    /*flex-direction: row;*/
+
+/*.grid-item{
+    background-color: aquamarine;
+}
+.main{
+    background-color: aqua;
+    display: flex;
+}    
+.div-2{
+    display: flex;
+    justify-content: space-around;
+    /*align-self: flex-start;*/
+
+/*.image-one{
+    /*order: -1;*/
+    /* align-self: flex-start;
+}*/
+    
+    /*FLEX direction*/
+    /*.image-one{
+        flex-direction: column;
+    }*/
+
+    /*FLEX wrap*/
+
+    /*FLEX flow: une flex direciton y flex flow, añadimos los 2 volores en una sólo propierdad*/
+    /*.image-two{
+        flex-flow: row wrap ; 
+    }*/
+
+/*div {
+    background-color: #EDDAA4;
+    /*padding */ 
+    /*padding-top: 20px;
+    padding-right: 10px;
+    padding-left: 20px;
+    padding-bottom: 40px;
+    /*mismo relleno 4lados*/
+    /*paddig general*/  
+    /* padding: 50px;*/ 
+
+    /*vertical-horizontal*/
+    /*padding: 300px 100px;*/
+
+    /*padding en cada lado, lo lee en sentido horario*/
+    /*padding: 100px 50px 250px 350px;*/
+
+    /*BORDER*/
+    /*border: 3px dotted #9d183eb6;*/
+    /*border-bottom:  5px dotted #9d183eb6;*/
+
+    /*MARGING funciona similar al padding*/
+    /*margin-top: ;
+    margin-right: ;
+    margin-left: ;
+    margin-bottom: ;*/
+    /*margin: 100px 20px;*/
+
+    /*POSITION
+    position relative: se mueve según su posición natural,la que ya le di con margin y los otros estilos
+    position relative: se mueve según la ventana del navegador
+    position fixed: deja fijo un elemento, calcula su valor según la posición de la pantalla igual que el absolut
+    position stiky: */
+
+    /*position: relative;
+    top: 50px;
+    left: 500px;*/
+
+    /*position: absolute;
+    top: 10px;
+    left: 5px;*/
+
+    /*position: relative;
+    top: 0px;
+    left: 0%;
+    z-index: 5;*/
+
+    /*position: sticky;*/
+/*}*/
+
+
+    /*FLEX*/
